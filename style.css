@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+
+
+nav {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.home {
+    padding: 80px 20px;
+    animation: fadeIn 2s;
+}
+
+.home h1 {
+    font-size: 50px;
+    color: darkblue;
+}
+
+.home p {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+
+.about {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.about h2 {
+    color: darkred;
+    font-size: 35px;
+}
+
+.about p {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+.image-section {
+    padding: 40px;
+}
+
+.image-section img {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+
+
+.volunteer {
+    padding: 60px 20px;
+    background-color: #dbeeff;
+}
+
+.volunteer h2 {
+    font-size: 35px;
+    color: darkblue;
+}
+
+.volunteer p {
+    font-size: 18px;
+}
+
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
